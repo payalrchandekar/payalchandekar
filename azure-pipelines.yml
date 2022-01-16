@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: MyPool
+  vmImage: OwnPCAgent
 
 steps:
 - task: Maven@3
