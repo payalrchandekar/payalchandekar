@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: OwnPCAgent
+pool: 
+ vmImage: ubuntu-latest
  
   
 steps:
